@@ -22,7 +22,7 @@ img{
     display: flex;
 }
 .logo{
-    float: left;
+    flex:1;
     height: .56rem;
     margin: .04rem .11rem .32rem .2rem;
 }
