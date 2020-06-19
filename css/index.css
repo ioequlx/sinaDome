@@ -24,7 +24,8 @@ img{
 .logo{
     flex:1;
     height: .56rem;
-    margin: .04rem .11rem .32rem .2rem;
+    margin: 0 .11rem .32rem .2rem;
+    line-height: 0.44rem;
 }
 
 .hd-cut{
@@ -32,13 +33,13 @@ img{
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    flex:1;
     height: .44rem;
     width: 1.98rem;
     border-radius: .3rem;
     background: rgba(0,0,0,.1);
-    width: 33%;
     line-height: .44rem;
-    margin-top: 0.08rem;
+    margin-top: 0.15rem;
     margin-left: 0.2rem;
     position: relative;
 }
@@ -65,10 +66,10 @@ img{
 }
 
 .hd-set{
-    width: 33%;
+    flex:1;
     height: .44rem;
     line-height: .44rem;
-    margin: .08rem .2rem 0 0;
+    margin: .15rem .2rem 0 0;
     margin-left: 0.2rem;
     display: flex;
 }
